@@ -148,14 +148,19 @@ h1, h2, h3, h4, h5 {
 	margin-left: 60px;
 	margin-right: 60px;
 	
-	
-
 }
 
-.middle-img {
+.middle-section {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	margin: 20px;
+	
+}
+
+.middle-img {
+	width: 100%;
+	margin-right: 
 }
 
 #features, #about, #services, #product, #vision, #contact {
@@ -280,6 +285,11 @@ footer {
     display: none;
 }
 
+.mid {
+	width:85%;
+	margin-left: 60px;
+}
+
 
     
 @media (max-width: 800px) {
@@ -292,18 +302,18 @@ footer {
         margin-bottom: 60px;
     }
 
-    body {
-        max-width: 100%;
-    }
 
     .middle-section {
-        width: 600px;
-        margin-left: 70px;
-        border: 1px solid black;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		
     }
 
     .middle-img {
-        width: 100px;
+		width: 100%;
+		margin-right: 75px;
     }
 
 
@@ -318,10 +328,6 @@ footer {
     #navigation {
         margin-top: 80px;
         
-        
-
-        
-        
     }
 
     .logo {
@@ -330,16 +336,71 @@ footer {
 
     .logo2 {
         display: block;
-        margin-left: 300px;
+        margin-left: 38%;
         margin-top: 30px;
     }
 
-    
+    .mid {
+		width:85%;
+	}
 }
 
-@media (max-width: 500px) {
-    .top-section {
-        display: flex;
-        flex-direction:column;
+@media (max-width: 510px) {
+    * {
+		background:
+	}
+
+	.top-section {
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+		
+		
+		
+	}
+
+	.bottom-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.middle-section {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		
+		
+	}
+	
+	.middle-img {
+		width: 100%;
+		height: auto;
+		margin-right: 75px;
     }
+
+	#navigation {
+		display: flex;
+		flex-direction: column;
+        margin-top: 80px;
+	}
+	
+	.nav {
+		margin-bottom: 0px;
+		border: solid lightgray;
+		padding-left: 300px;
+		padding-right: 300px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.logo2 {
+        display: block;
+        margin-left: 180px;
+        margin-top: 30px;
+	}
+	
+	
+		
+
 }
