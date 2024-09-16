@@ -1,3 +1,406 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.iov {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 80px;
+	margin-left: 100px;
+	margin-top: 60px;
+	
+	
+}
+
+.iod {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	text-align: center;
+}
+
+#iod1 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+	margin-right: 200px;
+	margin-left: 230px;
+	width: 160px;
+	border-color: black;
+	background: white;
+	padding: 10px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
+.button2 {
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	margin-top: 15px;
+	border-color: black;
+	background: white;
+	margin-bottom: 
+}
 
 
+
+
+.logo {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-right: 20px;
+	
+}
+
+.header-image {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 300px;
+	margin-left: 0px;
+	margin-bottom: 90px
+}
+
+.top-section {
+	
+	display: flex;
+	align-content: center;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	margin-left: 60px;
+	margin-right: 60px;
+	
+}
+
+.middle-section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	
+}
+
+.middle-img {
+	width: 100%;
+	margin-right: 
+}
+
+#features, #about, #services, #product, #vision, #contact {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+	width: 400p;
+	
+}
+#product {
+	margin-right: 50px;
+}
+
+
+
+#contact {
+	margin-top: 40px;
+	margin-left: 80px;
+	margin-bottom: 100px;
+}
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#navigation, #navigation2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+#navigation2 {
+	margin-left: 30px;px;
+	margin-right: 80px;
+}
+
+.nav {
+	color: gray
+}
+
+.nav:hover {
+	color: darkgray;
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	margin: 60px;
+	margin-top: 20px;
+	margin-right: 100px;px;
+}
+
+.tm, .mm, .lm {
+	display: flex;
+	margin-left: 20px;
+	margin-right: 80px;
+	
+}
+
+#digital-des, #uxui, #digital-mar, #web-dev, #ios-dev, #android-dev {
+	margin: 30px;
+	background: rgb(245, 243, 243);
+	padding: 20px;
+	border-color: rgb(2, 2, 2);
+	line-height: 20px;
+	
+}
+
+#services2 {
+	margin-left: 50px;
+	margin-right: 110px;
+	margin-bottom: 30px;
+	line-height: 20px;
+}
+
+.bottom {
+	display: flex;
+	
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-right: 150px;
+	line-height: 20px;
+	margin-bottom: 0px;
+}
+
+#list {
+	list-style-type: square;
+	margin-top: 30px;
+	margin-left: 20px;
+	
+}
+#list li {
+	padding: 10px;
+}
+
+.services-info-img {
+	margin-right: 120px;
+	width: 410px;
+	height: 380px;
+	margin-bottom: 200px;
+	margin-top: 20px;
+}
+
+#copyright {
+	display:flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 200px;
+
+}
+
+.logo2 {
+    display: none;
+}
+
+.mid {
+	width:85%;
+	margin-left: 60px;
+}
+
+
+    
+@media (max-width: 800px) {
+    .header-image {
+        display: none;
+    }
+
+    #iod1 {
+        margin-right: 270px;
+        margin-bottom: 60px;
+    }
+
+
+    .middle-section {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		
+    }
+
+    .middle-img {
+		width: 100%;
+		margin-right: 75px;
+    }
+
+
+
+    .navv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #navigation {
+        margin-top: 80px;
+        
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        display: block;
+        margin-left: 38%;
+        margin-top: 30px;
+    }
+
+    .mid {
+		width:85%;
+	}
+}
+
+@media (max-width: 510px) {
+    * {
+		background:
+	}
+
+	.top-section {
+		display: flex;
+		flex-direction: column;
+		font-size: 15px;
+		
+		
+		
+	}
+
+	.bottom-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.middle-section {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		
+		
+	}
+	
+	.middle-img {
+		width: 100%;
+		height: auto;
+		margin-right: 75px;
+    }
+
+	#navigation {
+		display: flex;
+		flex-direction: column;
+        margin-top: 80px;
+	}
+	
+	.nav {
+		margin-bottom: 0px;
+		border: solid lightgray;
+		padding-left: 300px;
+		padding-right: 300px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.logo2 {
+        display: block;
+        margin-left: 180px;
+        margin-top: 30px;
+	}
+	
+	
+		
+
+}
